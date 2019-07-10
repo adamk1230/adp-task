@@ -1,0 +1,30 @@
+{
+  "name": "adp-task",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "lint": "eslint index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adamk1230/adp-task.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adamk1230/adp-task/issues"
+  },
+  "homepage": "https://github.com/adamk1230/adp-task#readme",
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.2.0",
+    "eslint-plugin-import": "^2.18.0",
+    "prettier": "1.18.2"
+  },
+  "dependencies": {
+    "inquirer": "^6.4.1"
+  }
+}
