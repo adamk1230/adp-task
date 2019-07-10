@@ -81,6 +81,7 @@ const performTask = (task) => {
 };
 
 
+// Perform the get, task, and post
 const getAndPost = async () => {
   const task = await getADPTask();
   const { id } = task;
@@ -92,6 +93,7 @@ const getAndPost = async () => {
 };
 
 
+// Use setTimeout  to repeat after waiting 5 seconds
 const continuousCall = async () => {
   await getAndPost();
   console.log('Waiting...');
@@ -100,7 +102,7 @@ const continuousCall = async () => {
   }, 5000);
 };
 
-
+// Utilizing inquirer to prompt user
 const askUser = async () => {
   const singleTask = 'Get and post a single task.';
   const continuousTasks = 'Continuously get and post tasks.';
